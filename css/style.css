@@ -1,0 +1,222 @@
+body {
+  background-color: #F0EBEB !important;
+  height: 100vh;
+}
+.top-image {
+  text-align: center;
+  background-image: url(../image/wordws.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top-image img {
+  position: relative;
+  bottom: -5px;
+}
+.under-image {
+  text-align: center;
+}
+.under-image img {
+  position: relative;
+  top: -8px;
+}
+.record-mark {
+  text-align: center;
+}
+.record-mark .back {
+	height: 120px;
+}
+.record-mark .back img {
+	height: 100%;
+}
+.record-mark .mic {
+	position: relative;
+	top: -95px;
+	height: 0;
+}
+.record-mark .mic img {
+	height: 65px;
+}
+.record-voice:hover, .mic:hover, .dialog-record-voice:hover, .dialog-mic img:hover {
+  cursor: pointer;
+}
+.top-letter {
+  text-align: center;
+  color: #aca6a6;
+  font-family: sans-serif;
+}
+.top-letter-large {
+	font-size: 50px;
+	font-weight: bold;
+}
+.top-letter-small {
+	font-size: 35px;
+}
+.bottom-letter {
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+.bottom-letter-large a {
+	text-transform: uppercase;
+	color: #6d916e;
+	font-weight: bold;
+	font-size: 50px;
+}
+.bottom-letter-large {
+	text-align: center;
+}
+.bottom-letter-large a:hover {
+  color: #6d916e;
+}
+.bottom-letter-middle, .bottom-letter-small {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 25px;
+  color: black;
+}
+.bottom-letter-middle a {
+  color: black;
+}
+.bottom-letter-middle a:hover {
+  color: black;
+}
+.bottom-letter-small {
+	font-size: 20px;
+}
+.bottom-letter-small::first-letter {
+    font-size: 23px;
+}
+div[aria-describedby="dialog"] .ui-dialog-titlebar {
+  background: -webkit-linear-gradient(#660300, #eb141b); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#660300, #eb141b); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#660300, #eb141b); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#660300, #eb141b); /* Standard syntax */
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+div[aria-describedby="dialog"] {
+  padding: 0 !important;
+  width: 400px !important;
+  height: 300px !important;
+}
+div[aria-describedby="dialog"] .ui-dialog-titlebar-close, div[aria-describedby="dialog4"] .ui-dialog-titlebar-close {
+  display: none !important;
+}
+#dialog .record-mark .back {
+  height: 80px;
+}
+.dialog-mic {
+  position: relative;
+  top: -60px;
+  height: 0;
+}
+.dialog-mic img {
+  height: 40px;
+}
+#dialog textarea {
+  border-radius: 3px;
+  background-color: #ece8e7;
+  border-style: solid;
+  margin-top: 20px;
+}
+#dialog, #dialog2, #dialog3, #dialog4, #dialog .alert {
+  display: none;
+  text-align: center;
+  min-height: inherit !important;
+}
+#dialog2 img, #dialog3 img {
+  height: 70px;
+}
+.dialog-letter {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#dialog2 .dialog-letter, #dialog3 .dialog-letter {
+  color: white;
+  text-decoration: underline;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#dialog2 .dialog-letter:hover, #dialog3 .dialog-letter:hover, #dialog3 #return, .btn-send-email:hover {
+  cursor: pointer;
+}
+div[aria-describedby="dialog2"] .ui-dialog-titlebar, div[aria-describedby="dialog3"] .ui-dialog-titlebar {
+  display: none;
+}
+div[aria-describedby="dialog2"] {
+  background: -webkit-linear-gradient(#660300, #eb141b); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#660300, #eb141b); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#660300, #eb141b); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#660300, #eb141b); /* Standard syntax */
+}
+div[aria-describedby="dialog3"] #canvas {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+	background-color: black;
+}
+div[aria-describedby="dialog3"] #speaker {
+	margin-bottom: 10x;
+}
+div[aria-describedby="dialog3"] {
+  background: -webkit-linear-gradient(#006116, #46e13e); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#006116, #46e13e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#006116, #46e13e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#006116, #46e13e); /* Standard syntax */
+}
+div[aria-describedby="dialog3"] #start_button, div[aria-describedby="dialog3"] #stop_button {
+  cursor: pointer;
+}
+div[aria-describedby="dialog4"] {
+  padding: 0 !important;
+  width: 400px !important;
+  height: 300px !important;
+  background-color: #daf2e4;
+}
+div[aria-describedby="dialog4"] .ui-dialog-titlebar {
+  background: -webkit-linear-gradient(#7b9688, #c1e6d4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#7b9688, #c1e6d4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#7b9688, #c1e6d4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#7b9688, #c1e6d4); /* Standard syntax */
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+div[aria-describedby="dialog4"] .ui-dialog-title, div[aria-describedby="dialog"] .ui-dialog-title {
+  float: none;
+}
+.final-dialog-letter {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+  color: #1c9b5c;
+}
+.email-box {
+  width: 280px;
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  top: 2px;
+  height: 30px;
+  border-radius: 3px;
+}
+.btn-send-email {
+  width: 30px;
+  height: 33px;
+  background-color: #1c9b5c;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 3px;
+  border-style: solid;
+}
+.btn-send-email .glyphicon {
+  color: white;
+  top: 2px;
+}
